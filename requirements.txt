@@ -1,0 +1,18 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+sqlalchemy==2.0.35
+alembic==1.13.2
+aiosqlite==0.20.0
+python-multipart==0.0.12
+passlib[bcrypt]==1.7.4
+pyjwt==2.9.0
+email-validator==2.2.0
+httpx==0.27.2
+redis==5.0.8
+# Payments
+stripe==11.2.0
+# Optional drivers for production databases (install as needed):
+asyncpg==0.30.0  # PostgreSQL (async)
+# psycopg[binary]==3.2.3  # PostgreSQL (sync/async via psycopg3)
+
